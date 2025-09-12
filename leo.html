@@ -32,7 +32,7 @@
     <!-- 🔍 datalist 搜尋 -->
     <div class="row mb-3">
         <div class="col-12 col-md-6 col-lg-3">
-            <input list="lop1" id="bnbSearch" name="bname" class="form-control" placeholder="輸入或選擇民宿名稱...">
+            <input list="lop1" id="bnbSearch" name="bname" class="form-control " placeholder="輸入或選擇民宿名稱...">
             <datalist id="lop1">
                 
                 
@@ -429,9 +429,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 </script>
 
-
-
-
+<style>
+    #bnbSearch {
+  font-size: 16px;  /* 防止 iOS 自動放大 */
+}
+</style>
   </main>
   
 <hr>
